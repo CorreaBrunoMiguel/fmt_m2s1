@@ -14,6 +14,17 @@
         <strong style="color: red">HTML</strong> e
         <strong style="color: red">CSS</strong>
       </p>
+      <button onclick="showQuiz()">Iniciar</button>
     </header>
+    <div id="corpo" style="display: none;">
+      
+    </div>
+
+    <script>
+      function showQuiz() {
+        var quiz = document.getElementById("corpo");
+        quiz.style.display = "block";
+      }
+    </script>
   </body>
 </html>
