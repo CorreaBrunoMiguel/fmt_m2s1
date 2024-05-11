@@ -1,0 +1,19 @@
+html{
+    background-color: gray;
+    font-size: 16px;
+
+}
+
+body{
+    width: 95vw;
+    height: 90%;
+    background-color: beige;
+    margin: auto;
+    border: 2px 2px black;
+    box-shadow: 2px 2px greenyellow;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
