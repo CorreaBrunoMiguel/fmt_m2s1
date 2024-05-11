@@ -1,0 +1,79 @@
+@keyframes h1animation {
+    from{
+        font-size: 5px;
+        color: aqua;
+        text-align: center;
+    }
+    to{
+        font-size: 60px;
+        color: darkblue;
+        text-align: center;
+    }
+}
+
+body{
+    background-color: bisque;
+}
+
+img{
+    display: block;
+    width: 70%;
+    height: 14vh;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+h1{
+    animation-name: h1animation;
+    animation-duration: 5s;
+    text-align: center;
+    font-size: 60px;
+    color: darkblue;
+}
+
+p {
+    padding: 5px;
+    text-align: justify;
+    margin: 0;
+    background-color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+label{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+input{
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    border: 2px 2px black;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.corpo{
+    width: 70vw;
+    height: 50vh;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: auto;
+    background-color: rgb(43, 144, 226);
+    box-shadow: 2px 2px blue;
+    opacity: .7;
+}
+
+
+button{
+    display: block;
+    margin: 20px auto;
+    height: 40px;
+    width: 100px;
+    background-color: orange;
+    border-radius: 10px;
+}
