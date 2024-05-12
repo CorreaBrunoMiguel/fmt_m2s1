@@ -12,10 +12,10 @@ html{
 body{
     width: 95vw;
     height: 90%;
-    background-color: beige;
+    background-color: lightblue;
     margin: auto;
-    border: 2px 2px black;
-    box-shadow: 2px 2px greenyellow;
+    padding: 0;
+    border: 1px solid black;
     border-radius: 10px;
 }
 
@@ -30,7 +30,6 @@ header{
 h1{
     font-size: 40px;
     text-align: center;
-    margin-top: 15px;
     margin-bottom: 0;
 }
 
@@ -46,7 +45,6 @@ header button{
     text-align: center;
     margin: 5px auto;
     background-color: lightgreen;
-    margin-top: 0;
     border-radius: 5px;
     height: 28px;
     width: 70px;
@@ -67,9 +65,9 @@ header button:hover{
 .questions{
     width: 86vw;
     background-color: aquamarine;
-    margin: auto;
-    padding: 10px;
-    border: 2px 2px black;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid black;
     border-radius: 5px;
 }
 
@@ -107,5 +105,27 @@ button{
 .container {
     display: flex;
     justify-content: center;
+}
+
+footer{
+    font-size: 19px;
+    width: 95vw;
+    height: 60px;
+    border: 1px solid black;
+    margin:20px auto 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: burlywood;
+}
+
+footer a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px auto;
+}
+
+a:hover{
+    color: greenyellow;
 }
 
