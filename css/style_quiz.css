@@ -52,9 +52,34 @@ header button:hover{
     background-color: aqua;
 }
 
+
 #corpo{
     width: 90vw;
     padding: 10px;
-    text-align: justify;
     margin: auto;
 }
+
+.questions{
+    width: 86vw;
+    background-color: aquamarine;
+    margin: auto;
+    padding: 10px;
+    border: 2px 2px black;
+    border-radius: 5px;
+}
+
+textarea{ 
+    margin: 5px auto;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+label{
+    margin-top: 15px;
+}
+
+input[type="radio"]{
+    margin-top: 8px;
+}
+
